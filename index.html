@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To My Long Distance Love ❤️</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="hearts-bg" id="heartsBg"></div>
+
+    <div class="burst-container" id="burstContainer"></div>
+
+    <div class="stage" id="stage">
+        <div class="envelope" id="envelope" onclick="openLetter()">
+            <div class="env-body"></div>
+            <div class="env-flap"></div>
+            <div class="env-seal" id="seal">
+                <span class="heart-icon">❤️</span>
+                <span>Open Me</span>
+            </div>
+        </div>
+
+        <div class="letter-view" id="letterView" onclick="event.stopPropagation()">
+            <div class="paper-pattern"></div>
+            <div class="stamp">💌</div>
+
+            <div class="letter-photo-section">
+                <div class="letter-photo" id="letterPhoto">
+                    <img src="https://i.postimg.cc/RZDmYRHm/a11.png" alt="Karishma" />
+                </div>
+            </div>
+
+            <div class="letter-header">My Dearest Love,</div>
+
+            <div class="letter-body">
+                <p>Happy Girlfriend's Day, my love ❤️</p>
+
+                <p>I miss you <span class="highlight">every single day</span>. Waking up without you next to me feels empty, and every night I fall asleep wishing you were in my arms.</p>
+
+                <p><span class="highlight">I wish I could hug you right now</span> and give you the biggest, warmest hug. I wish I could kiss your forehead, look into your eyes, and tell you how much you mean to me in person, not through a screen.</p>
+
+                <p>I know we're far apart right now, and it hurts. But you know what? <span class="highlight">You are worth every mile</span>. You are worth every tear, every sleepless night, every moment of missing you. Because what we have is real, and it's forever.</p>
+
+                <p><span class="highlight">I want to spend the rest of my life with you.</span> I see our future together: a home, laughter, mornings and nights together, growing old side by side. That's what keeps me going.</p>
+
+                <p>We'll meet soon again, my love. I promise. Until then, hold onto my heart. It's always with you, no matter the distance.</p>
+                
+                <p>I love you more than words can say. <span class="highlight">Happy Girlfriend's Day, my beautiful Karishma.</span> You are my everything.</p>
+            </div>
+
+            <div class="surprise-btn-wrap">
+                <button class="surprise-btn" id="surpriseBtn">💫 Surprise 💫</button>
+                <div class="surprise-message" id="surpriseMessage">I love you forever, my baby ❤️</div>
+            </div>
+
+            <div class="letter-footer">
+                <div class="from">Forever Yours, Always ❤️</div>
+                <div class="date">Happy Girlfriend's Day</div>
+            </div>
+
+            <div class="close-hint">Tap outside to close</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
